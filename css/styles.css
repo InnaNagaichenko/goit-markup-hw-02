@@ -103,7 +103,7 @@ body {
   line-height: 1.2;
 }
 /* Преимущества */
-.list-advantages .subtitle {
+.section .list-advantages .subtitle {
   color: var(--title-color);
   font-weight: bold;
   font-size: 14px;
@@ -118,7 +118,7 @@ body {
 .section.team {
   background-color: var(--secondary-bcg-color);
 }
-.section .subtitle {
+.section.team .subtitle {
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
@@ -182,4 +182,7 @@ footer .link:focus {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+}
+.galery-examples {
+  display: none;
 }
