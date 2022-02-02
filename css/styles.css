@@ -150,6 +150,9 @@ footer .link:focus {
 }
 
 /* Страница Портфолио */
+.galery-examples {
+  display: none;
+}
 /* Кнопки */
 .gallery.button {
   color: var(--title-color);
@@ -182,7 +185,4 @@ footer .link:focus {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-}
-.galery-examples {
-  display: none;
 }
